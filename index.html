@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        
+        if(localStorage.getItem('cookieConsent') === 'granted') {
+            gtag('consent', 'default', {
+                'ad_storage': 'granted',
+                'analytics_storage': 'granted',
+                'personalization_storage': 'granted'
+            });
+        } else {
+            gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'analytics_storage': 'denied',
+                'personalization_storage': 'denied'
+            });
+        }
+    </script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Griebeler Advogados Associados | OAB/RS 2.390</title>
+    <meta name="description" content="Tradição, ética e resultados em Montenegro e região. Um escritório que entende que cada processo é uma história de vida.">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" sizes="512x512" href="android-chrome-512x512.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#0A2342',
+                            orange: '#E85D04',
+                            orangeHover: '#DC2F02',
+                            light: '#F4F6F8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        ::-webkit-scrollbar { width: 12px; background-color: var(--brand-light); }
+        ::-webkit-scrollbar-thumb { background: #0A2342; border-radius: 50px; }
+        
+        #lightbox { display: none; }
+        #lightbox.active { display: flex; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased relative">
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <header class="bg-white sticky top-0 z-50 shadow-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
+            <div class="flex-shrink-0 flex items-center gap-3">
+                <a href="#">
+                    <img src="img/logo_200x60.png" alt="Logotipo Griebeler Advogados" class="h-12 w-auto object-contain">
+                </a>
+                <div class="flex flex-col justify-center">
+                    <span class="text-xl font-extrabold text-brand-blue leading-none uppercase tracking-wide">Griebeler Advogados</span>
+                    <span class="text-[0.65rem] text-brand-orange font-bold tracking-[0.15em] uppercase mt-1">Associados</span>
+                </div>
+            </div>
+            <nav class="hidden lg:flex space-x-8 font-semibold text-sm uppercase tracking-wider">
+                <a href="#sobre" class="text-brand-blue hover:text-brand-orange transition">Sobre Nós</a>
+                <a href="#areas" class="text-brand-blue hover:text-brand-orange transition">Atuação</a>
+                <a href="#socios" class="text-brand-blue hover:text-brand-orange transition">Sócios</a>
+                <a href="#escritorio" class="text-brand-blue hover:text-brand-orange transition">Estrutura</a>
+                <a href="#noticias" class="text-brand-blue hover:text-brand-orange transition">Notícias</a>
+            </nav>
+            <div class="hidden md:block">
+                <a href="https://wa.me/5551981386475?text=Olá, vim do site e preciso de suporte jurídico." target="_blank" class="bg-brand-orange hover:bg-brand-orangeHover text-white px-6 py-2.5 rounded-full shadow transition flex items-center font-bold text-sm uppercase tracking-wide">
+                    Fale Conosco
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative bg-brand-blue pt-8 pb-16 lg:pt-0 lg:pb-0 overflow-hidden flex items-center min-h-[calc(100vh-80px)]">
+        <div class="absolute inset-0 w-full h-full z-0 flex justify-end overflow-hidden">
+            <div class="w-full lg:w-[55%] h-full relative">
+                <img src="img/hero_equipe_1920x1080.jpg" alt="Equipe Griebeler Advogados" class="w-full h-full object-cover object-top">
+                <div class="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-brand-blue to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-blue via-transparent to-transparent lg:hidden"></div>
+            </div>
+        </div>
+
+        <div class="absolute top-0 left-0 w-full lg:w-[45%] h-full bg-brand-blue/95 lg:bg-brand-blue z-0"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+            <div class="w-full lg:w-[45%] text-center lg:text-left pr-6">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 uppercase tracking-tight">Humanidade e Excelência</h2>
+                <p class="text-lg md:text-xl mb-8 text-gray-200 font-light leading-relaxed">Tradição, ética e resultados em Montenegro e região. Um escritório que entende que cada processo é uma história de vida.</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="https://wa.me/5551981386475?text=Olá, vim do site e preciso de suporte jurídico." target="_blank" class="bg-brand-orange text-white px-8 py-4 rounded font-bold text-sm uppercase tracking-wider hover:bg-brand-orangeHover hover:-translate-y-1 transition duration-300 shadow-lg inline-flex items-center justify-center">
+                        Agendar Consultoria
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-24 bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row gap-16 items-center">
+                <div class="w-full lg:w-1/2 relative order-2 lg:order-1 mt-8 lg:mt-0">
+                    <div class="absolute inset-0 bg-brand-blue rounded-xl transform translate-x-4 translate-y-4"></div>
+                    <img src="img/sobre_escritorio_800x600.png" alt="O Escritório Griebeler" class="relative rounded-xl object-cover h-[450px] w-full z-10">
+                </div>
+                
+                <div class="w-full lg:w-1/2 order-1 lg:order-2">
+                    <span class="text-sm font-bold tracking-widest text-brand-orange uppercase block mb-2">Quem Somos</span>
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-brand-blue uppercase mb-6">O Escritório</h2>
+                    <div class="w-16 h-1.5 bg-brand-orange mb-8 rounded"></div>
+                    
+                    <p class="text-gray-700 leading-relaxed mb-4 text-base">
+                        O <strong>Griebeler Advogados Associados</strong> construiu sua trajetória com base em uma presença sólida e sede física estruturada em Montenegro/RS, tornando-se referência de credibilidade em toda a região.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mb-8 text-base">
+                        Nosso foco é proporcionar um ambiente de escuta ativa e acolhimento. Unimos a tradição de uma atuação ética e transparente com as mais modernas ferramentas jurídicas, garantindo resultados concretos e a máxima proteção aos seus direitos.
+                    </p>
+                    <div class="bg-brand-light p-6 border-l-4 border-brand-orange rounded-r-lg">
+                        <p class="text-lg font-bold text-brand-blue italic">
+                            "Muito além da técnica jurídica: nosso compromisso é com a sua história e com a busca incessante pelos melhores resultados."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="diferenciais" class="py-20 bg-brand-light border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-sm font-bold tracking-widest text-brand-orange uppercase block mb-2">Nossa Filosofia</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-blue uppercase">Por Que Nos Escolher?</h2>
+                <div class="w-16 h-1.5 bg-brand-orange mx-auto mt-6 mb-6 rounded"></div>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8 text-center items-stretch">
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:border-brand-orange transition duration-300 flex flex-col h-full">
+                    <div class="w-16 h-16 bg-brand-light rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <i class="fas fa-hand-holding-heart text-2xl text-brand-orange"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-blue mb-3">Humanização</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">Atendimento acolhedor e altamente humanizado, onde a sua história é ouvida com respeito absoluto e empatia real por toda a nossa equipe jurídica.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:border-brand-orange transition duration-300 flex flex-col h-full">
+                    <div class="w-16 h-16 bg-brand-light rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <i class="fas fa-shield-alt text-2xl text-brand-orange"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-blue mb-3">Transparência</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">Clareza absoluta em todas as etapas do processo, mantendo você sempre bem informado, seguro e no controle de todas as decisões a serem tomadas.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:border-brand-orange transition duration-300 flex flex-col h-full">
+                    <div class="w-16 h-16 bg-brand-light rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <i class="fas fa-chess text-2xl text-brand-orange"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-blue mb-3">Estratégica</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">Construímos soluções jurídicas inteligentes, tanto preventivas quanto contenciosas, estritamente focadas em alcançar o melhor resultado para você.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-xl hover:border-brand-orange transition duration-300 flex flex-col h-full">
+                    <div class="w-16 h-16 bg-brand-light rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm">
+                        <i class="fas fa-landmark text-2xl text-brand-orange"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-blue mb-3">Tradição</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">Nossa sólida experiência jurídica construída na região garante credibilidade perante o judiciário e a confiança irrestrita de todos nossos clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="areas" class="py-20 bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-16">
+                <span class="text-sm font-bold tracking-widest text-brand-orange uppercase block mb-2">Especialidades</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-blue uppercase">Áreas de Atuação</h2>
+                <div class="w-16 h-1.5 bg-brand-orange mx-auto mt-6 mb-6 rounded"></div>
+                <p class="text-base text-gray-600 max-w-2xl mx-auto">Atuação multidisciplinar para oferecer soluções completas aos nossos clientes.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch text-left">
+                <div class="p-6 bg-brand-light border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-brand-orange transition duration-300 group flex items-start gap-4 h-full">
+                    <i class="fas fa-balance-scale text-3xl text-brand-orange group-hover:scale-110 transition mt-1 shrink-0"></i>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-brand-blue mb-2">Direito Civil</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">Atuação em elaboração de contratos, responsabilidade civil e ações de indenizações.</p>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-brand-light border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-brand-orange transition duration-300 group flex items-start gap-4 h-full">
+                    <i class="fas fa-users text-3xl text-brand-orange group-hover:scale-110 transition mt-1 shrink-0"></i>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-brand-blue mb-2">Direito de Família</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">Mediação de divórcios, disputas de guarda, pensão alimentícia e processos de inventários.</p>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-brand-light border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-brand-orange transition duration-300 group flex items-start gap-4 h-full">
+                    <i class="fas fa-briefcase text-3xl text-brand-orange group-hover:scale-110 transition mt-1 shrink-0"></i>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-brand-blue mb-2">Direito Trabalhista</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">Defesa especializada de empregados, cálculos trabalhistas e assessoria preventiva integral.</p>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-brand-light border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-brand-orange transition duration-300 group flex items-start gap-4 h-full">
+                    <i class="fas fa-file-contract text-3xl text-brand-orange group-hover:scale-110 transition mt-1 shrink-0"></i>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-brand-blue mb-2">Previdenciário</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">Encaminhamento de aposentadorias, benefícios BPC/LOAS e revisões previdenciárias.</p>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-brand-light border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-brand-orange transition duration-300 group flex items-start gap-4 h-full">
+                    <i class="fas fa-building text-3xl text-brand-orange group-hover:scale-110 transition mt-1 shrink-0"></i>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-brand-blue mb-2">Direito Empresarial</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">Elaboração de contratos sociais, estruturação societária e recuperação ativa de crédito.</p>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-brand-light border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-brand-orange transition duration-300 group flex items-start gap-4 h-full">
+                    <i class="fas fa-shopping-cart text-3xl text-brand-orange group-hover:scale-110 transition mt-1 shrink-0"></i>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-brand-blue mb-2">Direito do Consumidor</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">Defesa rigorosa contra abusos de empresas e reversão de negativações indevidas.</p>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-brand-light border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-brand-orange transition duration-300 group flex items-start gap-4 h-full">
+                    <i class="fas fa-home text-3xl text-brand-orange group-hover:scale-110 transition mt-1 shrink-0"></i>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-brand-blue mb-2">Direito Imobiliário</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">Ações de usucapião, administração de locações e regularização completa de imóveis.</p>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-brand-light border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-brand-orange transition duration-300 group flex items-start gap-4 h-full">
+                    <i class="fas fa-calculator text-3xl text-brand-orange group-hover:scale-110 transition mt-1 shrink-0"></i>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-brand-blue mb-2">Direito Tributário</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">Estratégias de planejamento fiscal estratégico e defesas robustas em execuções fiscais.</p>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-brand-light border border-gray-100 rounded-lg shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-brand-orange transition duration-300 group flex items-start gap-4 h-full">
+                    <i class="fas fa-gavel text-3xl text-brand-orange group-hover:scale-110 transition mt-1 shrink-0"></i>
+                    <div class="flex-grow">
+                        <h3 class="text-lg font-bold text-brand-blue mb-2">Administrativo</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">Consultoria em processos de licitações públicas e defesa especializada de servidores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="socios" class="py-20 bg-brand-light border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-sm font-bold tracking-widest text-brand-orange uppercase block mb-2">Nossa Equipe</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-blue uppercase">Sócios</h2>
+                <div class="w-16 h-1.5 bg-brand-orange mx-auto mt-6 mb-6 rounded"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="img/socio_marcos_400x400.jpg" class="w-full h-72 object-cover object-top" alt="Marcos Griebeler">
+                    <div class="p-4 text-center">
+                        <h3 class="text-sm font-bold text-brand-blue mb-1">Marcos G. Leipnitz Griebeler</h3>
+                        <p class="text-xs font-bold text-brand-orange uppercase tracking-wider">Sócio Fundador</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="img/socio_patricia_400x400.jpg" class="w-full h-72 object-cover object-top" alt="Patricia Aita">
+                    <div class="p-4 text-center">
+                        <h3 class="text-sm font-bold text-brand-blue mb-1">Patricia Aita</h3>
+                        <p class="text-xs font-bold text-brand-orange uppercase tracking-wider">Sócia</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="img/socio_andre_400x400.jpg" class="w-full h-72 object-cover object-top" alt="André Backes">
+                    <div class="p-4 text-center">
+                        <h3 class="text-sm font-bold text-brand-blue mb-1">André Josemar Backes</h3>
+                        <p class="text-xs font-bold text-brand-orange uppercase tracking-wider">Sócio</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="img/socio_debora_400x400.jpg" class="w-full h-72 object-cover object-top" alt="Débora Vogt">
+                    <div class="p-4 text-center">
+                        <h3 class="text-sm font-bold text-brand-blue mb-1">Débora Becker da Rosa Vogt</h3>
+                        <p class="text-xs font-bold text-brand-orange uppercase tracking-wider">Sócia</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="img/socio_felipe_400x400.webp" class="w-full h-72 object-cover object-top" alt="Felipe Pasini Fernandes">
+                    <div class="p-4 text-center">
+                        <h3 class="text-sm font-bold text-brand-blue mb-1">Felipe Pasini Fernandes</h3>
+                        <p class="text-xs font-bold text-brand-orange uppercase tracking-wider">Sócio</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="img/socio_leandro_400x400.jpg" class="w-full h-72 object-cover object-top" alt="Leandro de Souza">
+                    <div class="p-4 text-center">
+                        <h3 class="text-sm font-bold text-brand-blue mb-1">Leandro Kern de Souza</h3>
+                        <p class="text-xs font-bold text-brand-orange uppercase tracking-wider">Sócio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="escritorio" class="py-20 bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 overflow-hidden">
+                <span class="text-sm font-bold tracking-widest text-brand-orange uppercase block mb-2">Conforto e Sigilo</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-blue uppercase">Nossa Estrutura</h2>
+                <div class="w-16 h-1.5 bg-brand-orange mx-auto mt-6 mb-6 rounded"></div>
+                <p class="text-base text-gray-600 whitespace-nowrap overflow-x-auto no-scrollbar mx-auto w-full">Ambientes preparados para lhe receber com o máximo de privacidade e conforto em Montenegro.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="img/estrutura_fachada_800x600.jpg" alt="Recepção do Escritório" onclick="openLightbox(0)" class="cursor-pointer rounded-lg shadow hover:opacity-90 transition object-cover h-48 w-full">
+                <img src="img/estrutura_reuniao_800x600.jpg" alt="Sala de Reuniões" onclick="openLightbox(1)" class="cursor-pointer rounded-lg shadow hover:opacity-90 transition object-cover h-48 w-full">
+                <img src="img/estrutura_trabalho_800x600.jpg" alt="Ambiente de Trabalho" onclick="openLightbox(2)" class="cursor-pointer rounded-lg shadow hover:opacity-90 transition object-cover h-48 w-full">
+                <img src="img/estrutura_atendimento_800x600.jpg" alt="Atendimento Sigiloso" onclick="openLightbox(3)" class="cursor-pointer rounded-lg shadow hover:opacity-90 transition object-cover h-48 w-full">
+            </div>
+        </div>
+    </section>
+
+    <section id="noticias" class="py-20 bg-brand-light border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-sm font-bold tracking-widest text-brand-orange uppercase block mb-2">Conteúdo Informativo</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-blue uppercase">Notícias & Atualizações</h2>
+                <div class="w-16 h-1.5 bg-brand-orange mx-auto mt-6 mb-6 rounded"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 items-stretch">
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 border-b-4 border-brand-orange flex flex-col h-full group">
+                    <a href="https://jornalibia.com.br/noticias/economia/entenda-mudancas-na-aposentadoria-que-passam-a-vigorar-em-2026/" target="_blank" class="overflow-hidden">
+                        <img src="img/noticia_aposentadoria_600x400.jpg" class="w-full h-52 object-cover object-top group-hover:scale-105 transition duration-500" alt="Aposentadoria">
+                    </a>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <span class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Economia & Previdência</span>
+                        <h3 class="text-lg font-bold text-brand-blue mb-3 leading-snug whitespace-nowrap overflow-hidden text-ellipsis">Mudanças na aposentadoria</h3>
+                        <p class="text-sm text-gray-600 mb-6 flex-grow">Entenda as novas regras previdenciárias e como elas impactam o seu planejamento futuro.</p>
+                        <a href="https://jornalibia.com.br/noticias/economia/entenda-mudancas-na-aposentadoria-que-passam-a-vigorar-em-2026/" target="_blank" class="text-brand-orange font-bold text-sm uppercase flex items-center mt-auto hover:text-brand-orangeHover transition">
+                            Ler matéria completa <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 border-b-4 border-brand-orange flex flex-col h-full group">
+                    <a href="https://www.instagram.com/p/DQRYwz1EREa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="overflow-hidden">
+                        <img src="img/noticia_premio_600x400.jpg" class="w-full h-52 object-cover object-top group-hover:scale-105 transition duration-500" alt="Prêmio Top Ibiá">
+                    </a>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <span class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Premiação 2025</span>
+                        <h3 class="text-lg font-bold text-brand-blue mb-3 leading-snug whitespace-nowrap overflow-hidden text-ellipsis">Top Ibiá: Escritório Destaque</h3>
+                        <p class="text-sm text-gray-600 mb-6 flex-grow">Griebeler Advogados conquista o prêmio Top Ibiá 2025, reafirmando nossa excelência.</p>
+                        <a href="https://www.instagram.com/p/DQRYwz1EREa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="text-brand-orange font-bold text-sm uppercase flex items-center mt-auto hover:text-brand-orangeHover transition">
+                            Ver no Instagram <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 border-b-4 border-brand-orange flex flex-col h-full group">
+                    <a href="https://jornalibia.com.br/cadernos/especiais/topibia/griebeler-advogados-humanizacao-no-atendimento/" target="_blank" class="overflow-hidden">
+                        <img src="img/noticia_humanizacao_600x400.jpg" class="w-full h-52 object-cover object-top group-hover:scale-105 transition duration-500" alt="Humanização no Atendimento">
+                    </a>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <span class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Destaque Top Ibiá</span>
+                        <h3 class="text-lg font-bold text-brand-blue mb-3 leading-snug whitespace-nowrap overflow-hidden text-ellipsis">Humanização no Atendimento</h3>
+                        <p class="text-sm text-gray-600 mb-6 flex-grow">Nosso diferencial: acolhimento e escuta ativa como pilares fundamentais da advocacia.</p>
+                        <a href="https://jornalibia.com.br/cadernos/especiais/topibia/griebeler-advogados-humanizacao-no-atendimento/" target="_blank" class="text-brand-orange font-bold text-sm uppercase flex items-center mt-auto hover:text-brand-orangeHover transition">
+                            Ler matéria completa <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-3xl font-extrabold text-gray-700 uppercase">Homenagem Póstuma</h2>
+                <div class="w-16 h-1 bg-gray-400 mx-auto mt-4 mb-6 rounded"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-brand-light p-8 border-l-4 border-gray-500 shadow-sm rounded-r-lg flex flex-col">
+                    <span class="self-start bg-gray-500 text-white text-[0.65rem] font-bold uppercase tracking-widest px-3 py-1 rounded mb-4">In Memoriam</span>
+                    <h4 class="text-xl font-bold text-gray-800 mb-3">Dr. Rafael Reinehr</h4>
+                    <p class="text-gray-600 italic leading-relaxed text-sm">"Sua dedicação incansável e sua ética inabalável continuam a ser os pilares que sustentam a nossa prática diária. Eternamente presente em nossa história."</p>
+                </div>
+                
+                <div class="bg-brand-light p-8 border-l-4 border-gray-500 shadow-sm rounded-r-lg flex flex-col">
+                    <span class="self-start bg-gray-500 text-white text-[0.65rem] font-bold uppercase tracking-widest px-3 py-1 rounded mb-4">In Memoriam</span>
+                    <h4 class="text-xl font-bold text-gray-800 mb-3">Dr. Luís Claudio Schumacher</h4>
+                    <p class="text-gray-600 italic leading-relaxed text-sm">"Lembramos com carinho de seu talento, juventude e do brilhantismo que marcou sua trajetória entre nós. Sua memória permanece viva em nossos corações."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="bg-brand-blue pt-16 text-white border-t-4 border-brand-orange">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-12 mb-12">
+                
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <img src="img/logo_200x60.png" alt="Logotipo Griebeler Advogados" class="h-14 w-auto object-contain filter brightness-0 invert">
+                        <div class="flex flex-col justify-center">
+                            <span class="text-xl font-extrabold text-white leading-none uppercase tracking-wide">Griebeler Advogados</span>
+                            <span class="text-[0.65rem] text-brand-orange font-bold tracking-[0.15em] uppercase mt-1">Associados</span>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-300 leading-relaxed max-w-md mb-3">Compromisso com a ética e a justiça. Atendimento jurídico com transparência e acolhimento.</p>
+                    <div class="h-10 flex items-center space-x-3 mt-auto">
+                        <a href="https://www.facebook.com/griebeleradvogados/?locale=pt_BR" target="_blank" class="w-10 h-10 rounded bg-white/10 flex items-center justify-center text-white hover:bg-brand-orange hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/griebeler.advogados/" target="_blank" class="w-10 h-10 rounded bg-white/10 flex items-center justify-center text-white hover:bg-brand-orange hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-bold mb-6 uppercase tracking-wider text-brand-orange">Contato</h3>
+                    <ul class="text-sm text-gray-300 space-y-3">
+                        <li>
+                            <a href="https://wa.me/5551981386475?text=Olá, vim do site e preciso de suporte jurídico." target="_blank" class="hover:text-brand-orange transition font-medium text-white">
+                                +55 (51) 98138-6475
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:contato@g8adv.com.br" class="hover:text-brand-orange transition">
+                                contato@g8adv.com.br
+                            </a>
+                        </li>
+                        <li>
+                            <span>08:00 - 12:00 | 13:30 - 18:00</span>
+                        </li>
+                    </ul>
+                    <div class="h-10 flex items-center mt-3">
+                        <span class="text-sm text-gray-300 block whitespace-nowrap">Rua João Pessoa, 1595 - Montenegro/RS</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col h-full">
+                    <h3 class="text-lg font-bold mb-6 uppercase tracking-wider text-brand-orange">Localização</h3>
+                    <div class="rounded-lg overflow-hidden shadow-sm bg-white/5 border border-white/10 w-full h-[120px] mt-auto">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.118254378639!2d-51.46423892476459!3d-29.68735101480871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951bfb6bef3b4ee5%3A0x5914e6688d6c64c1!2sGriebeler%20Advogados%20e%20Associados!5e0!3m2!1spt-BR!2sus!4v1772684405179!5m2!1spt-BR!2sus" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bg-black/20 border-t border-white/10 py-6 mt-8 pb-24 md:pb-6">
+            <div class="max-w-7xl mx-auto px-4 flex flex-col items-center text-center space-y-3">
+                <a href="/legal/privacy-policy-terms-of-service" class="text-brand-orange hover:text-white text-sm font-semibold transition underline decoration-brand-orange/50 underline-offset-4">
+                    Política de Privacidade e Termos de Uso
+                </a>
+                <p class="text-gray-400 text-xs font-semibold">© 2026 Griebeler Advogados Associados - OAB/RS 2.390. Todos os Direitos Reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="fixed inset-0 z-[100] bg-black/95 items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-4xl hover:text-brand-orange transition focus:outline-none">×</button>
+        <button onclick="prevImage()" class="absolute left-4 text-white text-5xl hover:text-brand-orange transition focus:outline-none p-2">‹</button>
+        <img id="lightbox-img" src="" alt="Imagem ampliada do escritório" class="max-h-[85vh] max-w-full shadow-2xl rounded-lg">
+        <button onclick="nextImage()" class="absolute right-4 text-white text-5xl hover:text-brand-orange transition focus:outline-none p-2">›</button>
+    </div>
+
+    <a href="https://wa.me/5551981386475?text=Olá, vim do site e preciso de suporte jurídico." target="_blank" aria-label="Fale Conosco no WhatsApp" class="fixed bottom-24 md:bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full shadow-2xl hover:bg-green-600 hover:-translate-y-1 transition-all duration-300 z-50 flex items-center justify-center focus:ring-4 focus:ring-green-300">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <div id="cookie-banner" class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 shadow-[0_-10px_15px_-3px_rgba(0,0,0,0.1)] z-[100] transform translate-y-full transition-transform duration-500 flex flex-col md:flex-row items-center justify-between p-4 md:py-4 md:px-8 gap-4">
+        <div class="text-xs md:text-sm text-gray-600 flex-grow max-w-5xl leading-relaxed">
+            <p>Utilizamos cookies e tecnologias de medição para melhorar sua experiência, entender o tráfego e personalizar soluções. A coleta de dados só ocorrerá mediante a sua autorização ao clicar em "Aceitar". Para entender como protegemos seus dados, acesse nossa <a href="/legal/privacy-policy-terms-of-service" class="text-brand-orange font-bold hover:underline">Política de Privacidade e Termos de Uso</a>.</p>
+        </div>
+        <div class="flex space-x-3 shrink-0 w-full md:w-auto justify-end">
+            <button onclick="denyCookies()" class="px-5 py-2.5 text-sm font-semibold text-gray-600 bg-gray-100 hover:bg-gray-200 rounded transition w-full md:w-auto">Recusar</button>
+            <button onclick="acceptCookies()" class="px-5 py-2.5 text-sm font-bold text-white bg-brand-orange hover:bg-brand-orangeHover rounded shadow transition w-full md:w-auto">Aceitar</button>
+        </div>
+    </div>
+
+    <script>
+        const images = [
+            "img/estrutura_fachada_800x600.jpg",
+            "img/estrutura_reuniao_800x600.jpg",
+            "img/estrutura_trabalho_800x600.jpg",
+            "img/estrutura_atendimento_800x600.jpg"
+        ];
+        let currentIdx = 0;
+
+        function openLightbox(idx) {
+            currentIdx = idx;
+            document.getElementById('lightbox-img').src = images[currentIdx];
+            document.getElementById('lightbox').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function nextImage() {
+            currentIdx = (currentIdx + 1) % images.length;
+            document.getElementById('lightbox-img').src = images[currentIdx];
+        }
+
+        function prevImage() {
+            currentIdx = (currentIdx - 1 + images.length) % images.length;
+            document.getElementById('lightbox-img').src = images[currentIdx];
+        }
+
+        document.addEventListener('keydown', (e) => {
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox.classList.contains('active')) {
+                if (e.key === "Escape") closeLightbox();
+                if (e.key === "ArrowRight") nextImage();
+                if (e.key === "ArrowLeft") prevImage();
+            }
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const banner = document.getElementById('cookie-banner');
+            const consent = localStorage.getItem('cookieConsent');
+            if (!consent) {
+                setTimeout(() => { banner.classList.remove('translate-y-full'); }, 800);
+            }
+        });
+
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'granted');
+            document.getElementById('cookie-banner').classList.add('translate-y-full');
+            gtag('consent', 'update', { 'ad_storage': 'granted', 'analytics_storage': 'granted', 'personalization_storage': 'granted' });
+            window.dataLayer.push({'event': 'cookie_consent_granted'});
+        }
+
+        function denyCookies() {
+            localStorage.setItem('cookieConsent', 'denied');
+            document.getElementById('cookie-banner').classList.add('translate-y-full');
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const tempoInicial = new Date().getTime();
+            const botoesWhats = document.querySelectorAll('a[href^="https://wa.me"]');
+
+            botoesWhats.forEach(function(botao) {
+                botao.addEventListener('click', function() {
+                    const tempoNaPagina = new Date().getTime() - tempoInicial;
+                    window.dataLayer = window.dataLayer || [];
+
+                    if (tempoNaPagina >= 15000) {
+                        window.dataLayer.push({
+                            'event': 'whatsapp_qualificado',
+                            'tempo_segundos': Math.round(tempoNaPagina / 1000)
+                        });
+                    } else {
+                        window.dataLayer.push({
+                            'event': 'whatsapp_curioso',
+                            'tempo_segundos': Math.round(tempoNaPagina / 1000)
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
